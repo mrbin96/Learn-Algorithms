@@ -16,7 +16,6 @@ if __name__ == '__main__':
     print("排序之前的顺序为：")
     for i in a:
         print(i,end = '\n')
-
     print("排序之后的顺序为:")
     for i in b:
         print(i,end = '\n')
