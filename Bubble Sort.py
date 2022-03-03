@@ -8,6 +8,14 @@ def BubbleSort(arr):
             if arr[j] > arr[j+1]:
                 arr[j],arr[j+1] = arr[j+1],arr[j]
     return arr
-a = [12,24,36,25,16]
-b = BubbleSort(a)
-print(b)
+
+if __name__ == '__main__':
+    a = [12,24,36,25,16]
+    b = BubbleSort(a)
+    print("排序之前的顺序为：")
+    for i in a:
+        print(i,end = '\n')
+
+    print("排序之后的顺序为:")
+    for i in b:
+        print(i,end = '\n')
