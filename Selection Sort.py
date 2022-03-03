@@ -12,6 +12,7 @@ def SelectionSort(arr):
             arr[i],arr[flag] = arr[flag],arr[i]
     return arr
 
+
 if __name__ == '__main__':
     a = [12,24,36,25,16]
     b = SelectionSort(a)
